@@ -1,0 +1,26 @@
+{
+  "name": "react-usefetch",
+  "version": "1.0.0",
+  "description": "React hooks for the Fetch API",
+  "main": "useFetch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsjustcon/react-useFetch.git"
+  },
+  "keywords": [
+    "react",
+    "fetch"
+  ],
+  "author": "Connor Grady <conair360@gmail.com> (https://connorgrady.com/)",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsjustcon/react-useFetch/issues"
+  },
+  "homepage": "https://github.com/itsjustcon/react-useFetch#readme"
+}

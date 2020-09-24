@@ -1,5 +1,5 @@
 {
-  "name": "react-usefetch",
+  "name": "@itsjustcon/react-usefetch",
   "version": "0.1.0",
   "description": "React hooks for the Fetch API",
   "main": "useFetch.js",

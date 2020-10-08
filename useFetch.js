@@ -95,8 +95,8 @@ function useLazyFetch(...fetchArgs) {
     });
 
     const executeFetch = useCallback(async (...fetchArgs) => {
-        fetchArgs = fetchArgs || initialFetchArgs;
-        const request = new Request(...(fetchArgs || initialFetchArgs));
+        fetchArgs = (fetchArgs.length > 0) ? fetchArgs : initialFetchArgs;
+        const request = new Request(...fetchArgs);
         requestRef.current = request;
         setState({
             loading: true,

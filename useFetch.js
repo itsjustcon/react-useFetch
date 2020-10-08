@@ -54,7 +54,7 @@ function useFetch(...fetchArgs) {
     });
 
     const executeFetch = useCallback(async (...fetchArgs) => {
-        const request = new Request(...(fetchArgs || initialFetchArgs));
+        const request = new Request(...fetchArgs);
         requestRef.current = request;
         const response = await fetch(...fetchArgs);
         if (requestRef.current !== request) return;
